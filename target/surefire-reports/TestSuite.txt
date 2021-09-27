@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 2.946 sec <<< FAILURE! - in TestSuite
+CreateLead(testcases.TC003_CreateLead)  Time elapsed: 0.888 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Data Provider public java.lang.Object[][] wdMethods.ProjectMethods.getData() must return either Object[][] or Iterator<Object>[], not class [[Ljava.lang.Object;
+
+beforeMethod(testcases.TC001_LoginAndLogout)  Time elapsed: 2.798 sec  <<< FAILURE!
+java.lang.NullPointerException
+
